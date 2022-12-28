@@ -164,5 +164,10 @@ footer {
 }
 
 .icon-container {
+  width: 1.5rem;
   margin: 1rem 0.7rem;
+}
+
+.icon-container img {
+  width: 100%;
 }

@@ -16,7 +16,7 @@
   text-decoration: none;
 }
 
-html, body {
+  body {
   width: 100%;
   height: 100%;
 }
@@ -26,11 +26,14 @@ body {
   display: grid;
   place-items: center;
   font-family: var(--font-inter);
+  padding: 1rem 0;
 }
 
-main {
+#root {
   width: 90%;
-  height: 90%;
+  height: auto;
+  margin: 1rem;
+  max-width: 300px;
   background-color: var(--dark-background);
   border-radius: 10px;
 }
@@ -40,11 +43,12 @@ main {
   width: 100%;
   border-radius: 10px;
   padding: 1rem;
-  border: 1px solid green;
 }
 
 .img-container img {
   width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px goldenrod;
 }
 
 /* Title Section */
@@ -121,4 +125,44 @@ main {
 
 .btn-icon {
   margin: 0 0.5rem 0 0;
+}
+
+/* Text Section */
+
+.text-wrapper {
+  margin: 1rem 2rem;
+}
+
+.text-wrapper article h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.text-wrapper article p {
+  color: #DCDCDC;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-desturated);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.icon-container {
+  margin: 1rem 0.7rem;
 }

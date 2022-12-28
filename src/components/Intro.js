@@ -7,7 +7,7 @@ export default function Intro()
     <div className="title">
       <h1>Emmanuel Munyite</h1>
       <h2>FrontEnd Developer</h2>
-      <a href="https://github.com/munyite001" target='_blank' rel="noreferrer">Munyite001</a>
+      <a href="https://github.com/munyite001" target='_blank' rel="noreferrer" className="git-link">Munyite001</a>
       <div className="btn-wrapper">
         <a className="social-btns" href="email" target='_blank'>
           <img src={require('../images/Mail.png')} alt="Email-icon" className="btn-icon"/>

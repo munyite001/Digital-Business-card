@@ -81,7 +81,7 @@ body {
   margin: 10px 0;
 }
 
-.title a {
+.git-link{
   color: #F5F5F5;
   font-size: 12px;
   font-weight: 400;
@@ -107,7 +107,7 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  font-size: 14px !important;
+  font-size: 14px;
   line-height: 16px;
   margin: 0 0.5rem;
   padding: 10px;

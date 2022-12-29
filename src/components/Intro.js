@@ -9,11 +9,11 @@ export default function Intro()
       <h2>FrontEnd Developer</h2>
       <a href="https://github.com/munyite001" target='_blank' rel="noreferrer" className="git-link">Munyite001</a>
       <div className="btn-wrapper">
-        <a className="social-btns" href="email" target='_blank'>
+        <a className="social-btns" href="mailto:emunyite@gmail.com" target='_blank' rel="noreferrer">
           <img src={require('../images/Mail.png')} alt="Email-icon" className="btn-icon"/>
           <span>Email</span>
         </a>
-        <a className="social-btns" href="linkedin" target='_blank'>
+        <a className="social-btns" href="68545023a" target='_blank'>
           <img src={require('../images/linkedin.png')} alt="Linkedin-icon" className="btn-icon"/>
           <span>Linkedin</span>
         </a>
